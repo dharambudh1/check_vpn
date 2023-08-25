@@ -1,7 +1,7 @@
 name: check_vpn
 description: This package helps you to fight against IP fraud & much more. This app uses an API from VPNAPI.io to stop illegal actions on applications.
 version: 0.0.1
-homepage: null
+homepage: https://github.com/dharambudh1/check_vpn
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
