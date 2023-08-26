@@ -90,10 +90,11 @@ The data type of onSuccessResult is SuccessResult. In this class, you can extrac
 
 The data type of onFailureResult is FailureResult. In this class, you can look up information for the cause of failure (when you don't supply any API Key, etc.).
 
-## Example
-For more information, please checkout the example folder.
-
-https://github.com/dharambudh1/check_vpn
-
 ## Preview
 ![alt text](https://i.postimg.cc/fRGS0YKB/Screenshot-2023-08-26-at-11-39-46-AM.png "img")
+
+## Example
+For more information, please checkout the example folder. https://github.com/dharambudh1/check_vpn/tree/main/example
+
+## Issues
+Found any bugs or issues? Please inform at the GitHub issues screen. https://github.com/dharambudh1/check_vpn/issues
