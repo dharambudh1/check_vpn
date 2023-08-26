@@ -45,7 +45,7 @@ class ApiService {
       client.close();
     } on HttpException catch (exception) {
       // The below-mentioned line starts to execute if the written line crashes.
-      log("HttpException: ${exception.message}");
+      log("check_vpn : HttpException catch (exception) : ${exception.message}");
     }
 
     // If the success result's value is not the initial's value, the res is +ve.

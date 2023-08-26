@@ -24,15 +24,15 @@ Future<void> gatherInformation() async {
   );
 
   log("IP: ${successResult.ip}");
-  log("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ");
+  log("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ");
   log("Security: ${successResult.security?.toJson()}");
-  log("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ");
+  log("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ");
   log("Location: ${successResult.location?.toJson()}");
-  log("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ");
+  log("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ");
   log("Network: ${successResult.network?.toJson()}");
-  log("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ");
+  log("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ");
   log("Error message: ${failureResult.message}");
-  await Future<void>.value();
+  return Future<void>.value();
 }
 
 class MyApp extends StatelessWidget {
