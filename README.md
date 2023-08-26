@@ -93,7 +93,7 @@ The data type of onFailureResult is FailureResult. In this class, you can look u
 ## Example
 For more information, please checkout the example folder.
 
-https://github.com/dharambudh1/
+https://github.com/dharambudh1/check_vpn
 
 ## Preview
 ![alt text](https://i.postimg.cc/fRGS0YKB/Screenshot-2023-08-26-at-11-39-46-AM.png "img")
