@@ -1,3 +1,7 @@
+/// ip : "8.8.8.8"
+/// security : {"vpn":false,"proxy":false,"tor":false,"relay":false}
+/// location : {"city":"","region":"","country":"United States","continent":"North America","region_code":"","country_code":"US","continent_code":"NA","latitude":"37.7510","longitude":"-97.8220","time_zone":"America/Chicago","locale_code":"en","metro_code":"","is_in_european_union":false}
+/// network : {"network":"8.8.8.0/24","autonomous_system_number":"AS15169","autonomous_system_organization":"GOOGLE"}
 class SuccessResult {
   SuccessResult({this.ip, this.security, this.location, this.network});
 
@@ -33,6 +37,10 @@ class SuccessResult {
   }
 }
 
+/// vpn : false
+/// proxy : false
+/// tor : false
+/// relay : false
 class Security {
   Security({this.vpn, this.proxy, this.tor, this.relay});
 
@@ -59,6 +67,19 @@ class Security {
   }
 }
 
+/// city : ""
+/// region : ""
+/// country : "United States"
+/// continent : "North America"
+/// region_code : ""
+/// country_code : "US"
+/// continent_code : "NA"
+/// latitude : "37.7510"
+/// longitude : "-97.8220"
+/// time_zone : "America/Chicago"
+/// locale_code : "en"
+/// metro_code : ""
+/// is_in_european_union : false
 class Location {
   Location({
     this.city,
@@ -126,6 +147,9 @@ class Location {
   }
 }
 
+/// network : "8.8.8.0/24"
+/// autonomous_system_number : "AS15169"
+/// autonomous_system_organization : "GOOGLE"
 class Network {
   Network({
     this.network,

@@ -17,3 +17,7 @@
 ## 0.0.5
 
 * Added Documentation comments.
+
+## 0.0.6
+
+* We've added a few new Documentation comments.

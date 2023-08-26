@@ -1,3 +1,4 @@
+/// message : "Please enter an API key."
 class FailureResult {
   FailureResult({this.message});
 
