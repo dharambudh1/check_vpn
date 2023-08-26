@@ -13,3 +13,7 @@
 ## 0.0.4
 
 * A few bug fixes & improvements.
+
+## 0.0.5
+
+* Added Documentation comments.

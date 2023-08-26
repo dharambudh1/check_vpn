@@ -1,7 +1,7 @@
 class SuccessResult {
   SuccessResult({this.ip, this.security, this.location, this.network});
 
-  // Here, we're assigning values from the map to their specific local variable.
+  /// Here, we're assigning values from the map to their specific local variable
   SuccessResult.fromJson(Map<String, dynamic> json) {
     ip = json["ip"];
     security =
@@ -16,7 +16,7 @@ class SuccessResult {
   Location? location;
   Network? network;
 
-  // Here, we're building a map of JSON. It is an inverse process of fromJson().
+  /// Here, we're building a map of JSON. It is an inverse process of fromJson()
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = <String, dynamic>{};
     data["ip"] = ip;
@@ -36,7 +36,7 @@ class SuccessResult {
 class Security {
   Security({this.vpn, this.proxy, this.tor, this.relay});
 
-  // Here, we're assigning values from the map to their specific local variable.
+  /// Here, we're assigning values from the map to their specific local variable
   Security.fromJson(Map<String, dynamic> json) {
     vpn = json["vpn"];
     proxy = json["proxy"];
@@ -48,7 +48,7 @@ class Security {
   bool? tor;
   bool? relay;
 
-  // Here, we're building a map of JSON. It is an inverse process of fromJson().
+  /// Here, we're building a map of JSON. It is an inverse process of fromJson()
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = <String, dynamic>{};
     data["vpn"] = vpn;
@@ -76,7 +76,7 @@ class Location {
     this.isInEuropeanUnion,
   });
 
-  // Here, we're assigning values from the map to their specific local variable.
+  /// Here, we're assigning values from the map to their specific local variable
   Location.fromJson(Map<String, dynamic> json) {
     city = json["city"];
     region = json["region"];
@@ -106,7 +106,7 @@ class Location {
   String? metroCode;
   bool? isInEuropeanUnion;
 
-  // Here, we're building a map of JSON. It is an inverse process of fromJson().
+  /// Here, we're building a map of JSON. It is an inverse process of fromJson()
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = <String, dynamic>{};
     data["city"] = city;
@@ -133,7 +133,7 @@ class Network {
     this.autonomousSystemOrganization,
   });
 
-  // Here, we're assigning values from the map to their specific local variable.
+  /// Here, we're assigning values from the map to their specific local variable
   Network.fromJson(Map<String, dynamic> json) {
     network = json["network"];
     autonomousSystemNumber = json["autonomous_system_number"];
@@ -143,7 +143,7 @@ class Network {
   String? autonomousSystemNumber;
   String? autonomousSystemOrganization;
 
-  // Here, we're building a map of JSON. It is an inverse process of fromJson().
+  /// Here, we're building a map of JSON. It is an inverse process of fromJson()
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = <String, dynamic>{};
     data["network"] = network;
