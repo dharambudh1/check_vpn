@@ -27,7 +27,7 @@ So now, in the Dashboard, in the Account Details section, you can see the API Ke
 ## Installation:
 Run this command with Flutter:
 ```console
-flutter pub add url_launcher
+flutter pub add check_vpn
 ```
 
 OR
